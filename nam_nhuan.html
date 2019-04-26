@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xac dinh nam nhuan</title>
+</head>
+<body>
+	<script>
+		// Khai báo, nhập dữ liệu và chuyển đổi về kiểu int
+		let year = parseInt(prompt('Enter a year: '));
+
+		
+		if (year%4==0) {
+			if (year%100==0) {
+				if (year%400==0) {
+					alert('La nam nhuan');
+				} else {
+					alert('Khong la nam nhuan')
+				}
+			} else {
+				alert('La nam nhuan');
+			}
+		} else {
+			alert('Khong la nam nhuan');
+		};
+
+	</script>
+</body>
+</html>
